@@ -1,0 +1,126 @@
+.collections {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.section-header p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.collection-item {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.collection-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.collection-image {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.collection-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.collection-item:hover .collection-image img {
+  transform: scale(1.05);
+}
+
+.collection-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.collection-item:hover .collection-overlay {
+  opacity: 1;
+}
+
+.btn-view {
+  display: inline-block;
+  background-color: #d4af37;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-view:hover {
+  background-color: #c19e2a;
+  transform: translateY(-2px);
+}
+
+.collection-info {
+  padding: 20px;
+}
+
+.collection-info h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.collection-info p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .collections {
+    padding: 70px 0;
+  }
+  
+  .collections-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .collection-image {
+    height: 250px;
+  }
+  
+  .collection-info h3 {
+    font-size: 1.2rem;
+  }
+  
+  .collection-info p {
+    font-size: 0.9rem;
+  }
+}

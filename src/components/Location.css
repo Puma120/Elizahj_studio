@@ -1,0 +1,79 @@
+.location {
+  padding: 100px 0;
+  background-color: #f9f9f9;
+}
+
+.location-content {
+  margin-top: 50px;
+}
+
+.map-container {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.address-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.info-card {
+  display: flex;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-icon {
+  font-size: 2rem;
+  color: #d4af37;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-text h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.info-text p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.info-text p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .location {
+    padding: 70px 0;
+  }
+  
+  .info-card {
+    padding: 20px;
+  }
+  
+  .info-text h3 {
+    font-size: 1.2rem;
+  }
+  
+  .info-text p {
+    font-size: 0.9rem;
+  }
+}
