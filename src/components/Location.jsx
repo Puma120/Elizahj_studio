@@ -6,15 +6,15 @@ const Location = () => {
     <section id="location" className="location">
       <div className="container">
         <div className="section-header">
-          <h2>Nuestra Ubicación</h2>
+          <h2>Ubicación</h2>
           <div className="divider"></div>
-          <p>Visítanos en nuestro atelier y descubre todas nuestras colecciones</p>
+          <p>Visítanos en nuestro taller para cotizar tu diseño</p>
         </div>
         
         <div className="location-content">
           <div className="map-container">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.661956324902!2d-99.16369528541212!3d19.427023546029434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sZona%20Rosa%2C%20Ju%C3%A1rez%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1655230912456!5m2!1ses-419!2smx" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.330043788478!2d-98.19956294243286!3d19.034853844570065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0ea077295ff%3A0xa5cce20815b055e7!2sAv.%2021%20Ote.%20414%2C%20El%20Carmen%2C%2072530%20Heroica%20Puebla%20de%20Zaragoza%2C%20Pue.!5e0!3m2!1ses-419!2smx!4v1749871434603!5m2!1ses-419!2smx"
               width="100%" 
               height="450" 
               style={{ border: 0 }} 
@@ -32,8 +32,8 @@ const Location = () => {
               </div>
               <div className="info-text">
                 <h3>Dirección</h3>
-                <p>Av. Presidente Masaryk 123, Polanco</p>
-                <p>Ciudad de México, CP 11560</p>
+                <p>Av. 21 Ote. 414, El Carmen</p>
+                <p>Puebla de Zaragoza, Pue, CP 72530</p>
               </div>
             </div>
             

@@ -13,17 +13,24 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
+  overflow-x: hidden; /* Evitar scroll horizontal */
 }
 
 .app {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 main {
   flex: 1;
-  padding-top: 80px; /* Para compensar la altura del header fijo */
+  width: 100%;
+}
+
+/* Ajustamos el padding-top solo para las secciones dentro de main, no para Hero */
+main section:not(.hero) {
+  padding-top: 80px;
 }
 
 .container {

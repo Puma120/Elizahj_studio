@@ -1,12 +1,12 @@
 .collections {
   padding: 100px 0;
-  background-color: #fff;
+  background-color: #f5f5f5; /* Fondo gris muy claro */
 }
 
 .section-header p {
   margin-top: 20px;
   font-size: 1.1rem;
-  color: #666;
+  color: #333; /* Texto más oscuro */
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +23,7 @@
   background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.1); /* Sombra con tinte lila */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -51,11 +51,10 @@
 
 .collection-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0;  left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7); /* Overlay más oscuro */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,9 +66,8 @@
   opacity: 1;
 }
 
-.btn-view {
-  display: inline-block;
-  background-color: #d4af37;
+.btn-view {  display: inline-block;
+  background-color: #9a5dd3; /* Color lila pastel */
   color: #fff;
   padding: 10px 25px;
   border-radius: 4px;
@@ -81,9 +79,11 @@
   letter-spacing: 1px;
 }
 
-.btn-view:hover {
-  background-color: #c19e2a;
+.btn-view:hover {  background-color: #8347b9; /* Color lila más oscuro para hover */
+  color: #ffffff; /* Aseguramos que el texto siga siendo blanco */
   transform: translateY(-2px);
+  font-weight: 700; /* Hacemos el texto un poco más grueso en hover */
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2); /* Añadimos una ligera sombra al texto */
 }
 
 .collection-info {

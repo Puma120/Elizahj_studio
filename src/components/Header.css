@@ -3,8 +3,8 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.95); /* Fondo negro */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   z-index: 1000;
   padding: 15px 0;
 }
@@ -21,7 +21,7 @@
 .logo h1 {
   font-size: 28px;
   font-weight: 700;
-  color: #333;
+  color: #fff; /* Texto blanco */
   margin: 0;
   letter-spacing: 1px;
 }
@@ -39,14 +39,31 @@
 
 .nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #fff; /* Texto blanco */
   font-size: 16px;
   font-weight: 500;
-  transition: color 0.3s;
+  transition: all 0.3s;
+  padding-bottom: 3px;
+  position: relative;
 }
 
 .nav ul li a:hover {
-  color: #d4af37; /* Color dorado para hover */
+  color: #9a5dd3; /* Lila pastel para hover */
+}
+
+.nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #9a5dd3; /* Lila pastel */
+  transition: width 0.3s;
+}
+
+.nav ul li a:hover::after {
+  width: 100%;
 }
 
 .menu-icon {

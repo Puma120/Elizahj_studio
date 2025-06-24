@@ -1,6 +1,6 @@
 .about {
   padding: 100px 0;
-  background-color: #f9f9f9;
+  background-color: #ffffff; /* Fondo blanco */
   width: 100%;
 }
 
@@ -13,14 +13,14 @@
 
 .section-header h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #000000; /* Texto negro */
   margin-bottom: 15px;
 }
 
 .divider {
   height: 3px;
   width: 60px;
-  background-color: #d4af37;
+  background-color: #9a5dd3; /* Color lila pastel */
   margin: 0 auto;
 }
 

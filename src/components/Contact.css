@@ -17,21 +17,21 @@
 }
 
 .contact-details {
-  background-color: #f9f9f9;
+  background-color: #f5f5f5; /* Fondo gris muy claro para consistencia */
   padding: 40px;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.1); /* Sombra con tinte lila */
 }
 
 .contact-details h3 {
   font-size: 1.8rem;
-  color: #333;
+  color: #000000; /* Negro para los títulos */
   margin-bottom: 20px;
 }
 
 .contact-details p {
   font-size: 1.1rem;
-  color: #666;
+  color: #333; /* Texto más oscuro */
   line-height: 1.6;
   margin-bottom: 25px;
 }
@@ -47,12 +47,11 @@
   align-items: center;
   margin-bottom: 15px;
   font-size: 1.1rem;
-  color: #333;
+  color: #000000; /* Negro para el texto */
 }
 
 .contact-list i {
-  font-size: 1.2rem;
-  color: #d4af37;
+  font-size: 1.2rem;  color: #9a5dd3; /* Color lila pastel para los iconos */
   margin-right: 15px;
   width: 20px;
   text-align: center;
@@ -60,7 +59,7 @@
 
 .social-links h4 {
   font-size: 1.3rem;
-  color: #333;
+  color: #000000; /* Negro para los títulos */
   margin-bottom: 15px;
 }
 
@@ -74,8 +73,7 @@
   align-items: center;
   justify-content: center;
   width: 40px;
-  height: 40px;
-  background-color: #d4af37;
+  height: 40px;  background-color: #9a5dd3; /* Color lila pastel */
   color: #fff;
   border-radius: 50%;
   transition: all 0.3s;
@@ -83,7 +81,7 @@
 }
 
 .social-icons a:hover {
-  background-color: #333;
+  background-color: #8347b9; /* Color lila más oscuro para hover */
   transform: translateY(-3px);
 }
 
@@ -102,8 +100,7 @@
   display: block;
   font-size: 1rem;
   color: #333;
-  margin-bottom: 8px;
-  font-weight: 500;
+  margin-bottom: 8px;  font-weight: 500;
 }
 
 .form-group input,
@@ -113,36 +110,88 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 1rem;
-  color: #333;
+  color: #000000; /* Negro para el texto */
+  background-color: #ffffff; /* Fondo blanco para los inputs */
   transition: border-color 0.3s;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #d4af37;
+  border-color: #9a5dd3; /* Color lila pastel */
   outline: none;
 }
 
 .submit-btn {
   display: inline-block;
-  background-color: #d4af37;
+  background-color: #9a5dd3; /* Color lila pastel */
   color: #fff;
   padding: 12px 30px;
   border: none;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s;
+  cursor: pointer;  transition: all 0.3s;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: 100%;
 }
 
-.submit-btn:hover {
-  background-color: #c19e2a;
+.submit-btn:hover {  background-color: #8347b9; /* Color lila más oscuro para hover */
+  color: #ffffff; /* Aseguramos que el texto siga siendo blanco */
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
+  font-weight: 700; /* Hacemos el texto un poco más grueso en hover */
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2); /* Añadimos una ligera sombra al texto */
+}
+
+.submit-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Estilos para los mensajes de éxito y error */
+.form-message {
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.form-message.success {
+  background-color: rgba(154, 93, 211, 0.1); /* Fondo lila muy claro */
+  border: 1px solid #9a5dd3; /* Borde lila */
+}
+
+.form-message.error {
+  background-color: rgba(255, 99, 71, 0.1); /* Fondo rojo muy claro */
+  border: 1px solid #ff6347; /* Borde rojo */
+}
+
+.form-message p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.try-again-btn {
+  display: inline-block;
+  background-color: #9a5dd3; /* Color lila pastel */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.try-again-btn:hover {
+  background-color: #8347b9; /* Color lila más oscuro para hover */
 }
 
 @media (max-width: 992px) {

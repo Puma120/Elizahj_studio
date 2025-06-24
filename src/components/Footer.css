@@ -1,5 +1,5 @@
 .footer {
-  background-color: #222;
+  background-color: #000000; /* Negro puro */
   color: #fff;
   padding: 70px 0 20px;
 }
@@ -14,7 +14,7 @@
 .footer-brand h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
-  color: #d4af37;
+  color: #e6e6fa; /* Lila claro */
 }
 
 .footer-brand p {
@@ -36,13 +36,11 @@
 .footer-links h3:after,
 .footer-contact h3:after,
 .footer-social h3:after {
-  content: '';
-  position: absolute;
+  content: '';  position: absolute;
   bottom: 0;
-  left: 0;
-  width: 50px;
+  left: 0;  width: 50px;
   height: 2px;
-  background-color: #d4af37;
+  background-color: #9a5dd3; /* Color lila pastel */
 }
 
 .footer-links ul,
@@ -57,14 +55,13 @@
 }
 
 .footer-links a {
-  color: #ccc;
-  text-decoration: none;
+  color: #ccc;  text-decoration: none;
   transition: color 0.3s;
   font-size: 0.95rem;
 }
 
 .footer-links a:hover {
-  color: #d4af37;
+  color: #e6e6fa; /* Lila claro */
 }
 
 .footer-contact li {
@@ -76,7 +73,7 @@
 
 .footer-contact i {
   margin-right: 10px;
-  color: #d4af37;
+  color: #9a5dd3; /* Color lila pastel */
 }
 
 .footer-social .social-icons {
@@ -98,7 +95,7 @@
 }
 
 .footer-social .social-icons a:hover {
-  background-color: #d4af37;
+  background-color: #8347b9; /* Color lila más oscuro para hover */
   transform: translateY(-3px);
 }
 
