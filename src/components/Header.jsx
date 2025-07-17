@@ -65,6 +65,7 @@ const Header = ({ onNavigateHome }) => {
       <div className="container">
         <div className="logo">
           <a href="#" onClick={handleLogoClick}>
+            <img src="/LogoLetraBlancaFondoNegro.svg" alt="Elizahj Studio Logo" className="logo-image" />
             <h1>Elizahj Studio</h1>
           </a>
         </div>

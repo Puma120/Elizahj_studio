@@ -20,7 +20,7 @@
   background-color: #f5f5f5; /* Fondo gris muy claro para consistencia */
   padding: 40px;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.1); /* Sombra con tinte lila */
+  box-shadow: 0 5px 15px rgba(200, 162, 240, 0.1); /* Sombra con tinte lila claro */
 }
 
 .contact-details h3 {
@@ -51,7 +51,7 @@
 }
 
 .contact-list i {
-  font-size: 1.2rem;  color: #9a5dd3; /* Color lila pastel para los iconos */
+  font-size: 1.2rem;  color: #c8a2f0; /* Color lila claro para los iconos */
   margin-right: 15px;
   width: 20px;
   text-align: center;
@@ -73,7 +73,7 @@
   align-items: center;
   justify-content: center;
   width: 40px;
-  height: 40px;  background-color: #9a5dd3; /* Color lila pastel */
+  height: 40px;  background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
   border-radius: 50%;
   transition: all 0.3s;
@@ -81,7 +81,7 @@
 }
 
 .social-icons a:hover {
-  background-color: #8347b9; /* Color lila más oscuro para hover */
+  background-color: #b896e8; /* Color lila para hover */
   transform: translateY(-3px);
 }
 
@@ -117,13 +117,13 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #9a5dd3; /* Color lila pastel */
+  border-color: #c8a2f0; /* Color lila claro */
   outline: none;
 }
 
 .submit-btn {
   display: inline-block;
-  background-color: #9a5dd3; /* Color lila pastel */
+  background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
   padding: 12px 30px;
   border: none;
@@ -136,10 +136,10 @@
   width: 100%;
 }
 
-.submit-btn:hover {  background-color: #8347b9; /* Color lila más oscuro para hover */
+.submit-btn:hover {  background-color: #b896e8; /* Color lila para hover */
   color: #ffffff; /* Aseguramos que el texto siga siendo blanco */
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.3);
+  box-shadow: 0 5px 15px rgba(184, 150, 232, 0.3);
   font-weight: 700; /* Hacemos el texto un poco más grueso en hover */
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2); /* Añadimos una ligera sombra al texto */
 }
@@ -160,8 +160,8 @@
 }
 
 .form-message.success {
-  background-color: rgba(154, 93, 211, 0.1); /* Fondo lila muy claro */
-  border: 1px solid #9a5dd3; /* Borde lila */
+  background-color: rgba(200, 162, 240, 0.1); /* Fondo lila muy claro */
+  border: 1px solid #c8a2f0; /* Borde lila claro */
 }
 
 .form-message.error {
@@ -177,7 +177,7 @@
 
 .try-again-btn {
   display: inline-block;
-  background-color: #9a5dd3; /* Color lila pastel */
+  background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -191,7 +191,7 @@
 }
 
 .try-again-btn:hover {
-  background-color: #8347b9; /* Color lila más oscuro para hover */
+  background-color: #b896e8; /* Color lila para hover */
 }
 
 @media (max-width: 992px) {

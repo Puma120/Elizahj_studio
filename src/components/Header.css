@@ -1,3 +1,6 @@
+/* Importar la fuente Italianno */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 .header {
   position: fixed;
   top: 0;
@@ -18,9 +21,28 @@
   padding: 0 20px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 15px; /* Espacio entre el logo y el texto */
+}
+
+.logo-image {
+  height: 40px; /* Altura del logo */
+  width: auto;
+  filter: brightness(0) invert(1); /* Hacer el logo blanco */
+}
+
 .logo h1 {
-  font-size: 28px;
-  font-weight: 700;
+  font-family: 'Italianno', cursive; /* Cambiar a la fuente cursiva */
+  font-size: 2.5rem; /* Ajustar tamaño */
+  font-weight: 400;
   color: #fff; /* Texto blanco */
   margin: 0;
   letter-spacing: 1px;
@@ -48,7 +70,7 @@
 }
 
 .nav ul li a:hover {
-  color: #9a5dd3; /* Lila pastel para hover */
+  color: #c8a2f0; /* Lila claro para hover */
 }
 
 .nav ul li a::after {
@@ -58,7 +80,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #9a5dd3; /* Lila pastel */
+  background-color: #c8a2f0; /* Lila claro */
   transition: width 0.3s;
 }
 
@@ -115,6 +137,18 @@
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
+  }
+
+  .logo-image {
+    height: 35px; /* Reducir tamaño en móvil */
+  }
+
+  .logo h1 {
+    font-size: 2rem; /* Reducir tamaño de fuente en móvil */
+  }
+
+  .logo a {
+    gap: 10px; /* Reducir espacio en móvil */
   }
 
   .nav {

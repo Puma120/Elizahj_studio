@@ -60,7 +60,7 @@
 
 .btn-primary {
   display: inline-block;
-  background-color: #9a5dd3; /* Color lila/púrpura */
+  background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
   padding: 12px 30px;
   border-radius: 4px;
@@ -74,10 +74,10 @@
   font-size: 1.6rem;
 }
 
-.btn-primary:hover {  background-color: #8347b9; /* Color lila más oscuro para hover */
+.btn-primary:hover {  background-color: #b896e8; /* Color lila para hover */
   color: #ffffff; /* Aseguramos que el texto siga siendo blanco */
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4);
+  box-shadow: 0 5px 15px rgba(184, 150, 232, 0.4);
   font-weight: 700; /* Hacemos el texto un poco más grueso en hover */
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2); /* Añadimos una ligera sombra al texto */
 }

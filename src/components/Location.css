@@ -11,7 +11,7 @@
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(138, 43, 226, 0.1); /* Sombra con tinte lila */
+  box-shadow: 0 10px 30px rgba(200, 162, 240, 0.1); /* Sombra con tinte lila claro */
   margin-bottom: 50px;
 }
 
@@ -26,7 +26,7 @@
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.1); /* Sombra con tinte lila */  transition: transform 0.3s;
+  box-shadow: 0 5px 15px rgba(200, 162, 240, 0.1); /* Sombra con tinte lila claro */  transition: transform 0.3s;
 }
 
 .info-card:hover {
@@ -35,7 +35,7 @@
 
 .info-icon {
   font-size: 2rem;
-  color: #9a5dd3; /* Color lila pastel para los iconos */
+  color: #c8a2f0; /* Color lila claro para los iconos */
   margin-right: 20px;
   display: flex;
   align-items: center;

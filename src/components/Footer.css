@@ -40,7 +40,7 @@
   bottom: 0;
   left: 0;  width: 50px;
   height: 2px;
-  background-color: #9a5dd3; /* Color lila pastel */
+  background-color: #c8a2f0; /* Color lila claro */
 }
 
 .footer-links ul,
@@ -73,7 +73,7 @@
 
 .footer-contact i {
   margin-right: 10px;
-  color: #9a5dd3; /* Color lila pastel */
+  color: #c8a2f0; /* Color lila claro */
 }
 
 .footer-social .social-icons {
@@ -95,7 +95,7 @@
 }
 
 .footer-social .social-icons a:hover {
-  background-color: #8347b9; /* Color lila más oscuro para hover */
+  background-color: #b896e8; /* Color lila para hover */
   transform: translateY(-3px);
 }
 

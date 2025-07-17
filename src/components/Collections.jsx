@@ -6,9 +6,9 @@ const Collections = ({ onViewCollection }) => {
   const collections = [
     {
       id: 1,
-      name: 'Vestidos de Noche',
-      image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      description: 'Diseños frescos y elegantes para la temporada de primavera.'
+      name: 'Playeras Artísticas',
+      image: '/PlayerasPrimeraColeccion/Portada.jpeg',
+      description: 'Diseños únicos y creativos plasmados en playeras de alta calidad.'
     },
     {
       id: 2,

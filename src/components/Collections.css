@@ -23,7 +23,7 @@
   background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(138, 43, 226, 0.1); /* Sombra con tinte lila */
+  box-shadow: 0 5px 15px rgba(200, 162, 240, 0.1); /* Sombra con tinte lila claro */
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -36,6 +36,7 @@
   position: relative;
   overflow: hidden;
   height: 300px;
+  background-color: #f8f9fa; /* Fondo suave para cuando la imagen no llene todo el espacio */
 }
 
 .collection-image img {
@@ -43,6 +44,7 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s;
+  background-color: #fff; /* Fondo blanco para la imagen */
 }
 
 .collection-item:hover .collection-image img {
@@ -67,7 +69,7 @@
 }
 
 .btn-view {  display: inline-block;
-  background-color: #9a5dd3; /* Color lila pastel */
+  background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
   padding: 10px 25px;
   border-radius: 4px;
@@ -79,7 +81,7 @@
   letter-spacing: 1px;
 }
 
-.btn-view:hover {  background-color: #8347b9; /* Color lila más oscuro para hover */
+.btn-view:hover {  background-color: #b896e8; /* Color lila para hover */
   color: #ffffff; /* Aseguramos que el texto siga siendo blanco */
   transform: translateY(-2px);
   font-weight: 700; /* Hacemos el texto un poco más grueso en hover */
