@@ -62,16 +62,22 @@
   display: inline-block;
   background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
-  padding: 12px 30px;
+  padding: clamp(12px, 3vw, 16px) clamp(24px, 6vw, 36px);
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: clamp(1.2rem, 4vw, 1.6rem);
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Bentham', serif;
-  font-size: 1.6rem;
+  min-height: 48px; /* Mínimo para touch devices */
+  min-width: clamp(180px, 35vw, 250px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .btn-primary:hover {  background-color: #b896e8; /* Color lila para hover */
@@ -97,5 +103,23 @@
   
   .hero p {
     font-size: 1rem;
+  }
+  
+  .btn-primary {
+    width: 90%;
+    max-width: 300px;
+    font-size: 1.3rem;
+    padding: 14px 20px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-primary {
+    width: 95%;
+    max-width: 100%;
+    font-size: 1.1rem;
+    padding: 16px 20px;
+    min-width: auto;
   }
 }

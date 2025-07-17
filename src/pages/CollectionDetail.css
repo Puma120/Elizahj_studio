@@ -92,15 +92,18 @@
   display: inline-block;
   background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
-  padding: 10px 20px;
+  padding: clamp(10px, 2.5vw, 14px) clamp(16px, 4vw, 24px);
   border: none;
   border-radius: 4px;
-  font-size: 0.95rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
   width: 100%;
+  min-height: 44px; /* Mínimo para touch devices */
   text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .btn-add-to-cart:hover {
@@ -118,11 +121,19 @@
   display: inline-block;
   background-color: #c8a2f0; /* Color lila claro */
   color: #fff;
-  padding: 12px 25px;
+  padding: clamp(12px, 3vw, 16px) clamp(20px, 5vw, 30px);
   border-radius: 4px;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  min-height: 44px; /* Mínimo para touch devices */
+  min-width: clamp(140px, 30vw, 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .btn-back:hover {
@@ -276,15 +287,18 @@
 .btn-modal-primary,
 .btn-modal-secondary {
   flex: 1;
-  min-width: 140px;
-  padding: 12px 20px;
+  min-width: clamp(120px, 25vw, 160px);
+  padding: clamp(10px, 2.5vw, 14px) clamp(16px, 4vw, 24px);
   border: none;
   border-radius: 6px;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
   text-align: center;
+  min-height: 44px; /* Mínimo para touch devices */
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .btn-modal-primary {
@@ -342,10 +356,25 @@
   
   .modal-buttons {
     flex-direction: column;
+    gap: 10px;
   }
   
   .btn-modal-primary,
   .btn-modal-secondary {
     width: 100%;
+    min-width: auto;
+    padding: 14px 20px;
+    font-size: 1rem;
+  }
+  
+  .btn-add-to-cart {
+    padding: 14px 20px;
+    font-size: 1rem;
+  }
+  
+  .btn-back {
+    min-width: auto;
+    width: auto;
+    padding: 14px 24px;
   }
 }
