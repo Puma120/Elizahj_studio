@@ -111,7 +111,7 @@ const Contact = () => {
                   <a href="https://instagram.com/elizahj_studio" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="https://facebook.com/elizahj.studio" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.facebook.com/share/1C4edELr6H/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="https://pinterest.com/elizahjstudio" target="_blank" rel="noopener noreferrer">

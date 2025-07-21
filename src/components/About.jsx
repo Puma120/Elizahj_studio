@@ -12,7 +12,7 @@ const About = () => {
         
         <div className="about-content">
           <div className="about-image">
-            <img src="https://media.istockphoto.com/id/923796498/es/foto/toma-de-un-estudio-de-dise%C3%B1o-de-moda-soleada-vemos-trabajando-la-computadora-personal-colgar-la.jpg?s=612x612&w=0&k=20&c=aN_089hiAkmoKrg6IUU2VZjc4YEPX_t1oRSX2vgY9Sg=" alt="Elizahj Studio - Taller" />
+            <img src="/LogoLetraNegraFondoBlanco.svg" alt="Elizahj Studio - Logo" />
           </div>
           
           <div className="about-text">

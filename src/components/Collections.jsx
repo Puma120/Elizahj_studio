@@ -52,7 +52,7 @@ const Collections = ({ onViewCollection }) => {
     <section id="collections" className="collections">
       <div className="container">
         <div className="section-header">
-          <h2>Nuestras Colecciones</h2>
+          <h2>Colecciones</h2>
           <div className="divider"></div>
           <p>Descubre nuestras últimas creaciones y diseños exclusivos</p>
         </div>
