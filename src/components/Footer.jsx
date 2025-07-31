@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="footer-contact">
             <h3>Contacto</h3>
             <ul>
-              <li><i className="fas fa-map-marker-alt"></i> Av. Presidente Masaryk 123, Polanco</li>
+              <li><i className="fas fa-map-marker-alt"></i>Av. 21 Ote. 414, El Carmen</li>
               <li><i className="fas fa-phone"></i> +52 55 1234 5678</li>
               <li><i className="fas fa-envelope"></i> info@elizahjstudio.com</li>
             </ul>
@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="footer-social">
             <h3>Síguenos</h3>
             <div className="social-icons">
-              <a href="https://instagram.com/elizahj_studio" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/elizahj_moda?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram"></i>
               </a>
               <a href="https://www.facebook.com/share/1C4edELr6H/ " target="_blank" rel="noopener noreferrer">

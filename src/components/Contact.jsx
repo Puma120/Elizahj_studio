@@ -108,7 +108,7 @@ const Contact = () => {
               <div className="social-links">
                 <h4>Síguenos en Redes</h4>
                 <div className="social-icons">
-                  <a href="https://instagram.com/elizahj_studio" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/elizahj_moda?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a href="https://www.facebook.com/share/1C4edELr6H/" target="_blank" rel="noopener noreferrer">
